@@ -3,15 +3,9 @@
  * load this style in Web publications (format: webpub)
  */
 
-/* common styles */
-@import 'theme_common';
-
-@page {
-  /* if you open the publication on Vivliostyle Viewer, this message will be shown */
-  @top-left {
-    content: 'theme_screen';
-  }
-}
+@import "./_variables";
+@import "vfm/_index";
+@import "o2project/_index";
 
 /* for wide screen */
 body {

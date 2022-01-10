@@ -1,0 +1,19 @@
+@page {
+  counter-increment: p;
+}
+
+@page :first {
+  counter-reset: p -1;
+}
+
+@page :left {
+  @bottom-left {
+    content: counter(p) "　" string(doc-title);
+  }
+}
+
+@page :right {
+  @bottom-right {
+    content: counter(p);
+  }
+}

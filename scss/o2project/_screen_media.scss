@@ -1,0 +1,67 @@
+@media screen {
+  body {
+    padding-bottom: 4rem;
+    margin: auto 4rem;
+  }
+
+  article {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  section {
+    clear: both;
+  }
+
+  figure {
+    max-width: 50rem;
+  }
+
+  .footnote {
+    margin: 0 0.1rem;
+    background-color: rgba(214, 255, 0, 0.4);
+    line-height: 0;
+    vertical-align: super;
+
+    a {
+      word-break: break-all;
+    }
+  }
+
+  a[data-ref="sec"],
+  a[data-ref="subsec"],
+  a[data-ref="fig"],
+  a[data-ref="tbl"],
+  a[data-ref="cite"] {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: $color--red;
+  }
+
+  a[data-ref="sec"]::before {
+    content: "§ XXX";
+  }
+
+  a[data-ref="subsec"]::before {
+    content: "§ XXX.XXX";
+  }
+
+  a[data-ref="fig"]::before {
+    content: "Fig. XXX";
+
+    :root:lang(ja) & {
+      content: "図 XXX";
+    }
+  }
+
+  a[data-ref="tbl"]::before {
+    content: "Table XXX";
+
+    :root:lang(ja) & {
+      content: "表 XXX";
+    }
+  }
+
+  a[data-ref="cite"]::before {
+    content: "[XXX]";
+  }
+}

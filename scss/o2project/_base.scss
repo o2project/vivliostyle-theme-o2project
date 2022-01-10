@@ -1,0 +1,145 @@
+:root {
+  font-family: $font-family;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+html {
+  orphans: 1;
+  widows: 1;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+title {
+  // Named strings
+  // https://vivliostyle.github.io/vivliostyle_doc/ja/events/vivliostyle-css-paged-media-20210410/slide.html#named-strings
+  string-set: doc-title content();
+}
+
+h1,
+h2,
+h3 {
+  font-feature-settings: "palt", "calt";
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: $color--blue;
+}
+
+a:visited {
+  color: $color--purple;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $color--red;
+}
+
+p {
+  font-feature-settings: "calt";
+  text-align: justify;
+}
+
+pre {
+  margin: 1.5rem 0;
+  box-decoration-break: clone;
+}
+
+ul,
+ol {
+  padding-inline-start: 1.5em;
+}
+
+figure {
+  margin: 1.5rem auto;
+  text-align: center;
+
+  figcaption {
+    margin: 0.5rem auto;
+    width: 90%;
+    font-size: 90%;
+    break-inside: avoid;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  img[src$=".png"],
+  img[src$=".jpg"],
+  img[src$=".jpeg"],
+  img[src$=".gif"],
+  img[src$=".webp"] {
+    image-resolution: 200dpi;
+  }
+}
+
+table {
+  display: table;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-color: currentColor;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.25rem 1rem 0.25rem 0;
+    &:first-child {
+      padding-left: 1rem;
+    }
+    background-color: transparent;
+    border: 0;
+  }
+
+  th {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+
+  tr {
+    // border-bottom: .5px solid
+    $narrow-border-width: 0.4px;
+    box-shadow: 0 $narrow-border-width + 0.3px 0 -0.3px currentColor;
+  }
+  tr:last-child {
+    border-bottom: 1px solid;
+  }
+}
+
+blockquote {
+  margin: 1.5rem 0.5rem;
+  background-color: $color--silver;
+  padding: 0.5em 1em;
+  border-radius: 0.2rem;
+
+  :not(pre) > code {
+    padding: 0;
+    word-break: break-all;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-break {
+  page-break-after: always !important;
+}

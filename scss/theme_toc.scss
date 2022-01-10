@@ -1,0 +1,51 @@
+@import "./_variables";
+@import "vfm/_index";
+@import "o2project/_index";
+
+@page :left {
+  @bottom-left {
+    content: "";
+  }
+}
+@page :right {
+  @bottom-right {
+    content: "";
+  }
+}
+
+h1 {
+  display: none;
+}
+
+h2 {
+  text-indent: 0;
+}
+
+nav#toc,
+nav[role="doc-toc"] {
+  break-before: page;
+
+  li a {
+    display: inline-flex;
+    align-items: baseline;
+    width: 100%;
+    color: currentColor;
+    text-decoration: none;
+  }
+
+  li a::before {
+    content: "";
+    flex: auto;
+    order: 1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: dotted 1px;
+  }
+
+  li a::after {
+    content: target-counter(attr(href), p);
+    align-self: flex-end;
+    order: 2;
+    text-align: right;
+  }
+}

@@ -1,0 +1,28 @@
+@media print {
+  :root {
+    widows: 3;
+    orphans: 3;
+    hyphens: auto;
+    font-size: 75%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    break-after: avoid;
+  }
+
+  tr,
+  th,
+  td {
+    break-inside: avoid;
+  }
+
+  .footnote {
+    float: footnote;
+    text-align: left;
+  }
+}

@@ -1,0 +1,71 @@
+@mixin page-top-style() {
+  content: "";
+  margin-bottom: 4mm;
+}
+
+@page {
+  size: $page-width $page-height;
+  margin-top: $page-margin-top;
+  margin-bottom: $page-margin-bottom - 6mm;
+
+  @top-left-corner {
+    @include page-top-style();
+    margin-top: -$page-bleed;
+    margin-left: -$page-bleed;
+  }
+
+  @top-center {
+    @include page-top-style();
+    padding-right: 1mm;
+    padding-left: 1mm;
+    margin-top: -$page-bleed;
+    margin-right: -1mm;
+    margin-left: -1mm;
+  }
+
+  @top-right-corner {
+    @include page-top-style();
+    margin-top: -$page-bleed;
+    margin-right: -$page-bleed;
+  }
+
+  @bottom-left-corner {
+    content: "";
+    margin-top: -8mm;
+    margin-bottom: -$page-bleed;
+    margin-left: -$page-bleed;
+    background-color: $color--white;
+  }
+
+  @bottom-right-corner {
+    content: "";
+    margin-top: -8mm;
+    margin-right: -$page-bleed;
+    margin-bottom: -$page-bleed;
+    background-color: $color--white;
+  }
+}
+
+@page :left {
+  margin-right: $page-margin-inner;
+  margin-left: $page-margin-outer;
+  font-family: $font-family;
+
+  @bottom-left {
+    padding: 0 2mm 15mm 2mm;
+    margin-top: 15mm;
+    margin-bottom: -$page-bleed;
+  }
+}
+
+@page :right {
+  margin-right: $page-margin-outer;
+  margin-left: $page-margin-inner;
+  font-family: $font-family;
+
+  @bottom-right {
+    padding: 0 2mm 15mm 2mm;
+    margin-top: 15mm;
+    margin-bottom: -$page-bleed;
+  }
+}
