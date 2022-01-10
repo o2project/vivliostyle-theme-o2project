@@ -1,12 +1,15 @@
 module.exports = {
-  language: 'en',
-  theme: 'theme_print.css',
-  entry: ['example/default.md'],
+  language: "ja",
+  theme: "theme_print.css",
+  size: "JIS-B5",
+  toc: true,
+  tocTitle: "目次",
+  entry: [{ rel: "contents", theme: "theme_toc.css" }, "example/default.md"],
   output: [
-    'book.pdf',
+    "book.pdf",
     {
-      path: './book',
-      format: 'webpub',
+      path: "./book",
+      format: "webpub",
     },
   ],
 };
