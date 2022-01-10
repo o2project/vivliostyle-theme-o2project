@@ -1,6 +1,10 @@
 # My project
-.temp/
-out/
+index.html
+example/default.html
+
+theme_*.css
+theme_*.css.map
+publication.json
 
 # Logs
 logs
