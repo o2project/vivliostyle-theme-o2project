@@ -21,7 +21,7 @@ title {
 }
 
 @page {
-  size: A5;
+  size: B5;
 }
 
 // Left/right page layout
@@ -32,7 +32,7 @@ title {
 
 @page :left {
   @top-left {
-    content: counter(page) '　' string(doc-title);
+    content: counter(page) "　" string(doc-title);
   }
 }
 
@@ -42,15 +42,15 @@ title {
   }
 }
 
-@import '_variables';
-@import '_vfm_code';
-@import '_vfm_footnotes';
-@import '_vfm_frontmatter';
-@import '_vfm_hard_new_line';
-@import '_vfm_image';
-@import '_vfm_math_equation';
-@import '_vfm_raw_html';
-@import '_vfm_ruby';
-@import '_vfm_sectionization';
+@import "_variables";
+@import "vfm/_vfm_code";
+@import "vfm/_vfm_footnotes";
+@import "vfm/_vfm_frontmatter";
+@import "vfm/_vfm_hard_new_line";
+@import "vfm/_vfm_image";
+@import "vfm/_vfm_math_equation";
+@import "vfm/_vfm_raw_html";
+@import "vfm/_vfm_ruby";
+@import "vfm/_vfm_sectionization";
 
 /* and more... 🖋 */
