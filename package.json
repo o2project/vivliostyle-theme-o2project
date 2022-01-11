@@ -1,7 +1,7 @@
 {
-  "name": "vivliostyle-theme-o2project",
+  "name": "@o2project/vivliostyle-theme-o2project",
   "description": "Vivliostyle theme for O2 Project",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "kubosho <ta2@o2p.jp>",
   "scripts": {
     "build": "run-p build:scss build:vivliostyle",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "vivliostyle": {
     "theme": {
-      "name": "Vivliostyle Theme Vivliostyle Theme O2project",
+      "name": "Vivliostyle Theme Vivliostyle Theme O2 Project",
       "author": "kubosho <ta2@o2p.jp>",
       "style": "./theme_print.css",
       "category": "misc",
