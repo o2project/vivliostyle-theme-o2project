@@ -2,6 +2,8 @@
 index.html
 example/default.html
 
+book/
+book.pdf
 theme_*.css
 theme_*.css.map
 publication.json
