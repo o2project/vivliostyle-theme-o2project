@@ -9,9 +9,9 @@ Vivliostyle theme for O2 Project
 ## Install
 
 ```bash
-npm install --save vivliostyle-theme-o2project
+npm install --save @o2project/vivliostyle-theme-o2project
 # or
-yarn add vivliostyle-theme-o2project
+yarn add @o2project/vivliostyle-theme-o2project
 ```
 
 ## Use
@@ -20,7 +20,7 @@ In `vivliostyle.config.js`:
 
 ```js
 module.exports = {
-  theme: "vivliostyle-theme-o2project",
+  theme: "@o2project/vivliostyle-theme-o2project",
 };
 ```
 
@@ -29,7 +29,7 @@ module.exports = {
 ### Files
 
 ```
-vivliostyle-theme-o2project
+@o2project/vivliostyle-theme-o2project
 ├── LICENSE
 ├── README.md
 ├── example
