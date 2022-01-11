@@ -30,6 +30,9 @@
     "vivliostyle-theme"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "vivliostyle": {
     "theme": {
       "name": "Vivliostyle Theme Vivliostyle Theme O2 Project",
