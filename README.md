@@ -1,9 +1,5 @@
 # Vivliostyle Theme O2 Project
 
-[![npm: version](https://flat.badgen.net/npm/v/vivliostyle-theme-o2project)](https://npmjs.com/package/vivliostyle-theme-o2project)
-[![npm: total downloads](https://flat.badgen.net/npm/dt/vivliostyle-theme-o2project)](https://npmjs.com/package/vivliostyle-theme-o2project)
-![npm: license](https://flat.badgen.net/npm/license/vivliostyle-theme-o2project)
-
 Vivliostyle theme for O2 Project
 
 ## Install
