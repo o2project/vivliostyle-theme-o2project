@@ -2,19 +2,25 @@
 // https://prismjs.com
 @import 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css';
 
+pre,
 code {
+  max-width: 100%;
+}
+
+code {
+  padding: 0 4pt;
   background-color: $color--gray-light;
-  padding: 0 3pt;
+  white-space: pre-wrap;
 }
 
 figure[class^='language-'] {
-  margin: 0.5em 0;
-
   figcaption {
+    width: 100%;
+    margin: 0;
     background-color: $color--gray;
   }
 
   pre {
-    margin: 0pt;
+    margin: 0;
   }
 }
