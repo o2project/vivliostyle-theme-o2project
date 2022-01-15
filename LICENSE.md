@@ -1,4 +1,6 @@
-nullCopyright (c) 2022 kubosho <ta2@o2p.jp>
+MIT License
+
+Copyright (c) 2022 kubosho <ta2@o2p.jp>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
