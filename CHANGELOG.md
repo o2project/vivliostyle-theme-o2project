@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.2.0...v1.2.1) (2022-01-15)
+
+
+### Bug Fixes
+
+* **page_config:** fixed issue on page bottom chapter title unintentionally hidden ([4ff1f9f](https://github.com/o2project/vivliostyle-theme-o2project/commit/4ff1f9fbf75edb505d04ce6b5a11fe51bc6b6cd0))
+
 # [1.2.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.1.0...v1.2.0) (2022-01-15)
 
 
