@@ -1,5 +1,5 @@
 @mixin page-top-style() {
-  content: "";
+  content: '';
   margin-bottom: 4mm;
 }
 
@@ -30,7 +30,7 @@
   }
 
   @bottom-left-corner {
-    content: "";
+    content: '';
     margin-top: -8mm;
     margin-bottom: -$page-bleed;
     margin-left: -$page-bleed;
@@ -38,7 +38,7 @@
   }
 
   @bottom-right-corner {
-    content: "";
+    content: '';
     margin-top: -8mm;
     margin-right: -$page-bleed;
     margin-bottom: -$page-bleed;

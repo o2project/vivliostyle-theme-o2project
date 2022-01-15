@@ -13,9 +13,7 @@ This sample is based on [VFM (Vivliostyle Flavored Markdown) document](https://v
 ```javascript
 // MIT License
 // Copyright (c) Facebook, Inc. and its affiliates.
-export function lazy<T>(
-  ctor: () => Thenable<{default: T, ...}>,
-): LazyComponent<T, Payload<T>> {
+export function lazy<T>(ctor: () => Thenable<{ default: T, ... }>): LazyComponent<T, Payload<T>> {
   const payload: Payload<T> = {
     // We use these fields to store the result.
     _status: Uninitialized,

@@ -16,7 +16,7 @@ In `vivliostyle.config.js`:
 
 ```js
 module.exports = {
-  theme: "@o2project/vivliostyle-theme-o2project",
+  theme: '@o2project/vivliostyle-theme-o2project',
 };
 ```
 
@@ -65,11 +65,11 @@ You can specify your CSS file and manuscript file for preview in vivliostyle.con
 
 ```js
 module.exports = {
-  language: "en",
-  theme: "theme_print.css",
+  language: 'en',
+  theme: 'theme_print.css',
   // theme: 'theme_screen.css',
   entry: [
-    "example/default.md",
+    'example/default.md',
     // and more...
   ],
 };
