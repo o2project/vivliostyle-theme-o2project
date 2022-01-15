@@ -9,15 +9,13 @@ section > {
   h4,
   h5,
   h6 {
-    padding: 0;
-    font-weight: bold;
     break-after: avoid;
+    line-height: 1.5;
   }
 
   h1 {
     margin: 10pt auto 5pt;
     font-size: 20pt;
-    line-height: 1.5;
   }
 
   h2 {
