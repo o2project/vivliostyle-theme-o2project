@@ -1,11 +1,13 @@
+.footnotes {
+  font-size: 8pt;
+  overflow-wrap: break-word;
+}
+
 .footnote-ref sup {
   background-color: $color--red-light;
 }
 
 .footnote-back {
   background-color: $color--red-light;
-}
-
-.footnotes {
-  font-size: 8pt;
+  font-weight: bold;
 }
