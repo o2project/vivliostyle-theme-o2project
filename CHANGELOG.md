@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.2.1...v1.2.2) (2022-01-15)
+
+
+### Bug Fixes
+
+* **scss/base:** fixed long heading unintentionally hidden ([d321ed1](https://github.com/o2project/vivliostyle-theme-o2project/commit/d321ed1067a6dfa703a696282644fe79fc1fae8b))
+* **scss/footnotes:** fixed long footnote unintentionally hidden ([96b582b](https://github.com/o2project/vivliostyle-theme-o2project/commit/96b582b20539c01932eb589112751a2169696fbb))
+
 ## [1.2.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.2.0...v1.2.1) (2022-01-15)
 
 

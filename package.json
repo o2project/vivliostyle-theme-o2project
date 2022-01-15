@@ -1,7 +1,7 @@
 {
   "name": "@o2project/vivliostyle-theme-o2project",
   "description": "Vivliostyle theme for O2 Project",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "kubosho <ta2@o2p.jp>",
   "repository": {
     "type": "git",
