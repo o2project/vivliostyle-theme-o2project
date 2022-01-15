@@ -21,30 +21,29 @@ section > {
 
   h1 {
     margin: 10pt auto 5pt;
-    font-size: 14pt;
+    font-size: 20pt;
     line-height: 1.5;
-
-    // counter
-    counter-increment: section;
-    counter-reset: subsection;
-
-    &:before {
-      margin-right: 1rem;
-      content: counter(section) '.';
-    }
   }
 
   h2 {
     margin: 8pt auto 4pt;
+    font-size: 18pt;
+  }
+
+  h3 {
+    margin: 6pt auto 3pt;
+    font-size: 16pt;
+  }
+
+  h4 {
+    margin: 4pt auto 2pt;
+    font-size: 14pt;
+  }
+
+  h5,
+  h6 {
+    margin: 2pt auto;
     font-size: 12pt;
-
-    // counter
-    counter-increment: subsection;
-
-    &:before {
-      margin-right: 1rem;
-      content: counter(section) '.' counter(subsection) '.';
-    }
   }
 }
 
@@ -54,9 +53,4 @@ section.title {
 
 blockquote > h1 {
   font-size: inherit;
-}
-
-.level1 {
-}
-.level2 {
 }
