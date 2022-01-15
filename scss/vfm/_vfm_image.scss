@@ -1,18 +1,20 @@
+html {
+  // counter
+  counter-reset: figure;
+}
+
 img {
   max-width: 100%;
 }
 
 figure {
-  img {
-  }
-
   figcaption {
     text-align: center;
 
     // counter
     counter-increment: figure;
 
-    &:before {
+    &::before {
       margin-right: 1rem;
       content: 'Figure' counter(figure) '.';
 
