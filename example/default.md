@@ -11,7 +11,72 @@ This sample is based on [VFM (Vivliostyle Flavored Markdown) document](https://v
 # Code
 
 ```javascript
-function main() {}
+// MIT License
+// Copyright (c) Facebook, Inc. and its affiliates.
+export function lazy<T>(
+  ctor: () => Thenable<{default: T, ...}>,
+): LazyComponent<T, Payload<T>> {
+  const payload: Payload<T> = {
+    // We use these fields to store the result.
+    _status: Uninitialized,
+    _result: ctor,
+  };
+
+  const lazyType: LazyComponent<T, Payload<T>> = {
+    $$typeof: REACT_LAZY_TYPE,
+    _payload: payload,
+    _init: lazyInitializer,
+  };
+
+  if (__DEV__) {
+    // In production, this would just set it on the object.
+    let defaultProps;
+    let propTypes;
+    // $FlowFixMe
+    Object.defineProperties(lazyType, {
+      defaultProps: {
+        configurable: true,
+        get() {
+          return defaultProps;
+        },
+        set(newDefaultProps) {
+          console.error(
+            'React.lazy(...): It is not supported to assign `defaultProps` to ' +
+              'a lazy component import. Either specify them where the component ' +
+              'is defined, or create a wrapping component around it.',
+          );
+          defaultProps = newDefaultProps;
+          // Match production behavior more closely:
+          // $FlowFixMe
+          Object.defineProperty(lazyType, 'defaultProps', {
+            enumerable: true,
+          });
+        },
+      },
+      propTypes: {
+        configurable: true,
+        get() {
+          return propTypes;
+        },
+        set(newPropTypes) {
+          console.error(
+            'React.lazy(...): It is not supported to assign `propTypes` to ' +
+              'a lazy component import. Either specify them where the component ' +
+              'is defined, or create a wrapping component around it.',
+          );
+          propTypes = newPropTypes;
+          // Match production behavior more closely:
+          // $FlowFixMe
+          Object.defineProperty(lazyType, 'propTypes', {
+            enumerable: true,
+          });
+        },
+      },
+    });
+  }
+
+  return lazyType;
+}
 ```
 
 ## with caption
@@ -51,6 +116,18 @@ VFM は出版物の執筆に適した Markdown 方言であり、Vivliostyle プ
 # Image
 
 ![](<./assets/Logo%20(Mark%20+%20Type).png>)
+
+# List
+
+順序付きリスト
+
+1. はじめまして
+2. こんにちは
+
+順序なしリスト
+
+- はじめまして
+- こんにちは
 
 ## with caption and single line
 
