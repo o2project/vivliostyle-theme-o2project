@@ -28,40 +28,40 @@
     }
   }
 
-  a[data-ref="sec"],
-  a[data-ref="subsec"],
-  a[data-ref="fig"],
-  a[data-ref="tbl"],
-  a[data-ref="cite"] {
+  a[data-ref='sec'],
+  a[data-ref='subsec'],
+  a[data-ref='fig'],
+  a[data-ref='tbl'],
+  a[data-ref='cite'] {
     background-color: rgba(255, 0, 0, 0.3);
     color: $color--red;
   }
 
-  a[data-ref="sec"]::before {
-    content: "§ XXX";
+  a[data-ref='sec']::before {
+    content: '§ XXX';
   }
 
-  a[data-ref="subsec"]::before {
-    content: "§ XXX.XXX";
+  a[data-ref='subsec']::before {
+    content: '§ XXX.XXX';
   }
 
-  a[data-ref="fig"]::before {
-    content: "Fig. XXX";
+  a[data-ref='fig']::before {
+    content: 'Fig. XXX';
 
     :root:lang(ja) & {
-      content: "図 XXX";
+      content: '図 XXX';
     }
   }
 
-  a[data-ref="tbl"]::before {
-    content: "Table XXX";
+  a[data-ref='tbl']::before {
+    content: 'Table XXX';
 
     :root:lang(ja) & {
-      content: "表 XXX";
+      content: '表 XXX';
     }
   }
 
-  a[data-ref="cite"]::before {
-    content: "[XXX]";
+  a[data-ref='cite']::before {
+    content: '[XXX]';
   }
 }
