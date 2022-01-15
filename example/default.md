@@ -83,7 +83,7 @@ export function lazy<T>(ctor: () => Thenable<{ default: T, ... }>): LazyComponen
 function main() {}
 ```
 
-or
+## with caption and title
 
 ```javascript title=app.js
 function main() {}
@@ -172,8 +172,28 @@ This is {Ruby|ルビ}
 
 # Welcome {.title}
 
-# Level 1
+# Heading level 1
 
-## Level 2
+This is text.
+
+## Heading level 2
+
+This is text.
+
+### Heading level 3
+
+This is text.
+
+#### Heading level 4
+
+This is text.
+
+##### Heading level 5
+
+This is text.
+
+##### Heading level 6
+
+This is text.
 
 > # Not Sectionize
