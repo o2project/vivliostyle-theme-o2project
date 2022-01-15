@@ -200,4 +200,8 @@ This is text.
 
 # 超スーパーウルトラハイパーすごくとても長すぎて読み切れない日本語で書かれた見出し
 
+背景画像の拡大縮小[^4]
+
+[^4]: [https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images)
+
 > # Not Sectionize
