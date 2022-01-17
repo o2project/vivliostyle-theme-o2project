@@ -9,12 +9,12 @@
   },
   "scripts": {
     "build": "run-p build:scss build:vivliostyle",
-    "build:scss": "sass scss:.",
+    "build:scss": "sass src:lib",
     "build:vivliostyle": "vivliostyle build",
     "dev": "run-p preview watch:scss",
     "preview": "vivliostyle preview",
     "validate": "vivliostyle-theme-scripts validate",
-    "watch:scss": "sass --watch scss:."
+    "watch:scss": "sass --watch src:lib"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
@@ -29,10 +29,9 @@
     "vivliostyle-theme-scripts": "^0.3.1"
   },
   "files": [
-    "*.css",
-    "*.css.map",
-    "scss",
     "example",
+    "src",
+    "lib",
     "vivliostyle.config.js"
   ],
   "keywords": [
@@ -47,7 +46,7 @@
     "theme": {
       "name": "Vivliostyle Theme Vivliostyle Theme O2 Project",
       "author": "kubosho <ta2@o2p.jp>",
-      "style": "./theme_print.css",
+      "style": "./lib/print.css",
       "category": "misc",
       "topics": []
     }
