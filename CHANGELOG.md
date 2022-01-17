@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.5.0...v1.6.0) (2022-01-17)
+
+
+### Features
+
+* **sectionization:** improve heading styles ([ace02a6](https://github.com/o2project/vivliostyle-theme-o2project/commit/ace02a6bf6b5aa43e775dcf64230f4747cab7462))
+
 # [1.5.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.4.0...v1.5.0) (2022-01-17)
 
 
