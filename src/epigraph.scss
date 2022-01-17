@@ -1,0 +1,30 @@
+@import './_index';
+
+section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  p {
+    margin: 1.5rem 0;
+    text-indent: 0 !important;
+  }
+
+  dl {
+    margin-left: 1.5rem;
+  }
+
+  dl > div {
+    display: table;
+
+    dt,
+    dd {
+      display: table-cell;
+      margin: 0;
+    }
+
+    dt {
+      width: 5em;
+    }
+  }
+}
