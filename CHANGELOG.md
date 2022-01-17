@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.4.0...v1.5.0) (2022-01-17)
+
+
+### Features
+
+* **epigraph:** implemented epigraph styles ([e156763](https://github.com/o2project/vivliostyle-theme-o2project/commit/e1567639f2137b579ef7e83b86f26fa3af567c2e))
+
 # [1.4.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.3.0...v1.4.0) (2022-01-17)
 
 
