@@ -6,7 +6,7 @@ lib/
 out/
 
 index.html
-example/default.html
+example/*.html
 book.pdf
 publication.json
 
