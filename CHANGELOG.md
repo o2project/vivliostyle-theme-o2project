@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.3.0...v1.4.0) (2022-01-17)
+
+
+### Features
+
+* **page_wrap:** implemented of page wrap style ([53e40f2](https://github.com/o2project/vivliostyle-theme-o2project/commit/53e40f2867faaa53da3af7d1d36bfb0ac854cf69))
+
 # [1.3.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.2.2...v1.3.0) (2022-01-17)
 
 
