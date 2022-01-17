@@ -1,14 +1,14 @@
 module.exports = {
   language: 'ja',
-  theme: 'theme_print.css',
+  theme: 'lib/print.css',
   size: 'JIS-B5',
   toc: true,
   tocTitle: '目次',
-  entry: [{ rel: 'contents', theme: 'theme_toc.css' }, 'example/default.md'],
+  entry: [{ rel: 'contents', theme: 'lib/toc.css' }, 'example/default.md'],
   output: [
-    'book.pdf',
+    './out/pdf/book.pdf',
     {
-      path: './book',
+      path: './out/webpub',
       format: 'webpub',
     },
   ],

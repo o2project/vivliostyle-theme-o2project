@@ -22,32 +22,8 @@ module.exports = {
 
 ## Dev
 
-### Files
-
-```
-@o2project/vivliostyle-theme-o2project
-├── LICENSE
-├── README.md
-├── example
-│   ├── default.html       // auto generated
-│   └── default.md         // 🖋
-├── package.json
-├── scss                   // 🖋
-│   ├── theme_common.scss
-│   ├── theme_print.scss
-│   └── theme_screen.scss
-├── theme_common.css       // auto generated
-├── theme_common.css.map   // auto generated
-├── theme_print.css        // auto generated
-├── theme_print.css.map    // auto generated
-├── theme_screen.css       // auto generated
-├── theme_screen.css.map   // auto generated
-└── vivliostyle.config.js
-```
-
-**example**: Contain sample manuscripts using your theme.
-
-**scss**: You can add files for specific use (print, screen, cover, toc, preface, ...) and apply them at `theme` `entry > theme` in vivliostyle.config.js. Partial files whose names begin with `_` will be ignored.
+- **example**: Contain sample manuscripts using your theme.
+- **src**: You can add files for specific use (print, screen, cover, toc, preface, ...) and apply them at `theme` `entry > theme` in vivliostyle.config.js. Partial files whose names begin with `_` will be ignored.
 
 ### Commands
 
@@ -66,7 +42,7 @@ You can specify your CSS file and manuscript file for preview in vivliostyle.con
 ```js
 module.exports = {
   language: 'en',
-  theme: 'theme_print.css',
+  theme: 'print.css',
   // theme: 'theme_screen.css',
   entry: [
     'example/default.md',
