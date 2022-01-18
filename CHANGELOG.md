@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.0...v1.6.1) (2022-01-18)
+
+
+### Bug Fixes
+
+* **object/source_code:** fixed some wrong styles ([26951b3](https://github.com/o2project/vivliostyle-theme-o2project/commit/26951b341a970d08316f49f5c540854a11c38352))
+
 # [1.6.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.5.0...v1.6.0) (2022-01-17)
 
 
