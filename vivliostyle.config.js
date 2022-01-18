@@ -9,8 +9,8 @@ module.exports = {
     'example/default.md',
     {
       title: 'おわりに',
-      path: 'example/epigraph.md',
-      theme: 'lib/epigraph.css',
+      path: 'example/book_information.md',
+      theme: 'lib/book_information.css',
     },
   ],
   output: [
