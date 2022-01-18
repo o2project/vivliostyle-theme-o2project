@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.1...v1.6.2) (2022-01-18)
+
+
+### Bug Fixes
+
+* **object/source_code:** fixed word-break style not overwritten ([becc542](https://github.com/o2project/vivliostyle-theme-o2project/commit/becc5422d78c94b86b33a1356af3e9b59cf55f49))
+
 ## [1.6.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.0...v1.6.1) (2022-01-18)
 
 
