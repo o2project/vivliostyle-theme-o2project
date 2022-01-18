@@ -9,7 +9,8 @@ code {
 
 pre code {
   padding: 0;
-  word-break: break-all;
+  // override to vivliostyle style definition
+  word-break: break-all !important;
 }
 
 code {
