@@ -20,4 +20,5 @@ module.exports = {
       format: 'webpub',
     },
   ],
+  workspaceDir: '.temp',
 };

@@ -2,13 +2,9 @@
 # My project
 # ------------------------------------
 
+.temp/
 lib/
 out/
-
-index.html
-example/*.html
-book.pdf
-publication.json
 
 # ------------------------------------
 # macOS
