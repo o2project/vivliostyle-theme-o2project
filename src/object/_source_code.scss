@@ -7,18 +7,17 @@ code {
   max-width: 100%;
 }
 
-pre code {
-  padding: 0;
+code {
+  padding: 0 4pt;
+  background-color: $color--gray-light;
   // override to vivliostyle style definition
   white-space: pre-wrap !important;
   // override to vivliostyle style definition
   word-break: break-all !important;
 }
 
-code {
-  padding: 0 4pt;
-  background-color: $color--gray-light;
-  white-space: pre-wrap;
+pre code {
+  padding: 0;
 }
 
 figure[class^='language-'] {
