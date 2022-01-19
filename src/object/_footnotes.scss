@@ -4,10 +4,15 @@
 }
 
 .footnote-ref sup {
-  background-color: $color--red-light;
+  &::before {
+    content: '[';
+  }
+
+  &::after {
+    content: ']';
+  }
 }
 
 .footnote-back {
-  background-color: $color--red-light;
   font-weight: bold;
 }
