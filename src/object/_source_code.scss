@@ -10,6 +10,8 @@ code {
 pre code {
   padding: 0;
   // override to vivliostyle style definition
+  white-space: pre-wrap !important;
+  // override to vivliostyle style definition
   word-break: break-all !important;
 }
 
