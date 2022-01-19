@@ -1,0 +1,16 @@
+/*
+ * For PDF publications or Vivliostyle Viewer:
+ * load this style in PDF publicatoins (format: pdf)
+ */
+
+@import './_index';
+
+@page :left {
+  margin-right: $page-margin-outer;
+  margin-left: $page-margin-outer;
+}
+
+@page :right {
+  margin-right: $page-margin-outer;
+  margin-left: $page-margin-outer;
+}
