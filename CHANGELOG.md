@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.3...v1.7.0) (2022-01-19)
+
+
+### Features
+
+* **object/image:** added a style definition to align center the img element ([f7b3ec6](https://github.com/o2project/vivliostyle-theme-o2project/commit/f7b3ec65476b2789e23990c37ae05078c2a0e910))
+
 ## [1.6.3](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.2...v1.6.3) (2022-01-19)
 
 
