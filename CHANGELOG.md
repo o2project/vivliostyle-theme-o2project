@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.8.0...v1.9.0) (2022-01-19)
+
+
+### Features
+
+* **src:** added styles for ebook ([9c57487](https://github.com/o2project/vivliostyle-theme-o2project/commit/9c57487adba1eb186bcfc6f9468b76a53a80331c))
+
 # [1.8.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.7.1...v1.8.0) (2022-01-19)
 
 
