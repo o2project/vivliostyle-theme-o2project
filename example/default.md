@@ -115,6 +115,10 @@ VFM は出版物の執筆に適した Markdown 方言であり、Vivliostyle プ
 
 ![](<./assets/Logo%20(Mark%20+%20Type).png>)
 
+with width setting
+
+![](<./assets/Logo%20(Mark%20+%20Type).png>){width=300}
+
 # List
 
 順序付きリスト
