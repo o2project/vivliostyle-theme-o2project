@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.7.0...v1.7.1) (2022-01-19)
+
+
+### Bug Fixes
+
+* **object/source_code:** fixed unwrapping of inline code ([7ca20b8](https://github.com/o2project/vivliostyle-theme-o2project/commit/7ca20b80e234b0da977ed839841a25b320277013))
+
 # [1.7.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.6.3...v1.7.0) (2022-01-19)
 
 
