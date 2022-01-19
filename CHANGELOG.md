@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.7.1...v1.8.0) (2022-01-19)
+
+
+### Features
+
+* **object/footnotes:** added enclose in brackets in footnote link ([0ad54fd](https://github.com/o2project/vivliostyle-theme-o2project/commit/0ad54fde3f874bf4c6d210c4061a6c3f2b080b51))
+
 ## [1.7.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.7.0...v1.7.1) (2022-01-19)
 
 
