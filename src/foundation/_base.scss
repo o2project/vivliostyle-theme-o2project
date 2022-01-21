@@ -111,18 +111,6 @@ table {
   }
 }
 
-blockquote {
-  padding: 0.5em 1em;
-  margin: 1.5rem 0.5rem;
-  border-radius: 0.2rem;
-  background-color: $color-sub;
-
-  :not(pre) > code {
-    padding: 0;
-    word-break: break-all;
-  }
-}
-
 img {
   max-width: 100%;
 }
