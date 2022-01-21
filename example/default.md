@@ -6,9 +6,11 @@ vfm:
   hardLineBreaks: false
 ---
 
+# Title
+
 This sample is based on [VFM (Vivliostyle Flavored Markdown) document](https://vivliostyle.github.io/vfm/vfm). If you need more information, please check the document.
 
-# Code
+## Code
 
 ```javascript
 // MIT License
@@ -77,19 +79,19 @@ export function lazy<T>(ctor: () => Thenable<{ default: T, ... }>): LazyComponen
 }
 ```
 
-## with caption
+### with caption
 
 ```javascript:app.js
 function main() {}
 ```
 
-## with caption and title
+### with caption and title
 
 ```javascript title=app.js
 function main() {}
 ```
 
-# Footnotes
+## Footnotes
 
 VFM is developed in the GitHub repository[^1].
 Issues are managed on GitHub[^issues].
@@ -98,11 +100,11 @@ Footnotes can also be written inline^[This part is a footnote.].
 [^1]: [VFM](https://github.com/vivliostyle/vfm)
 [^issues]: [Issues](https://github.com/vivliostyle/vfm/issues)
 
-# Frontmater
+## Frontmater
 
-(You can define metadata on the top of the Markdown file. Try to set `lang` option `ja` in the frontmatter! If you need more information, please check [Frontmatter part in VFM document](https://vivliostyle.github.io/vfm/vfm#frontmatter).)
+(You can define metadata on the top of the Markdown file. Try to set `lang` option `ja` in the frontmatter! If you need more information, please check [Frontmatter part in VFM document](https://vivliostyle.github.io/vfm/vfm##frontmatter).)
 
-# Hard new line
+## Hard new line
 
 (Try to set the `hardLineBreaks` option `true` in the frontmatter!)
 
@@ -111,7 +113,7 @@ Footnotes can also be written inline^[This part is a footnote.].
 Vivliostyle Flavored Markdown（略して VFM）の世界へようこそ。
 VFM は出版物の執筆に適した Markdown 方言であり、Vivliostyle プロジェクトのために策定・実装されました。
 
-# Image
+## Image
 
 ![](<./assets/Logo%20(Mark%20+%20Type).png>)
 
@@ -119,7 +121,7 @@ with width setting
 
 ![](<./assets/Logo%20(Mark%20+%20Type).png>){width=300}
 
-# List
+## List
 
 順序付きリスト
 
@@ -131,7 +133,7 @@ with width setting
 - はじめまして
 - こんにちは
 
-## with caption and single line
+### with caption and single line
 
 ![Vivliostyle Logo](<./assets/Logo%20(Mark%20+%20Type).png>)
 
@@ -139,19 +141,19 @@ with width setting
 
 text ![Vivliostyle Logo](<./assets/Logo%20(Mark%20+%20Type).png>)
 
-# Math equation
+## Math equation
 
 inline: $x = y$
 
 display: $$1 + 1 = 2$$
 
-# Raw HTML
+## Raw HTML
 
 <div class="custom">
   <p>Hey</p>
 </div>
 
-## with Markdown
+#### with Markdown
 
 <div class="custom">
 
@@ -160,21 +162,21 @@ display: $$1 + 1 = 2$$
 
 </div>
 
-# Ruby
+## Ruby
 
 This is {Ruby|ルビ}
 
-## Escape pipe in ruby body
+### Escape pipe in ruby body
 
 {a\|b|c}
 
-# Sectionization
+## Sectionization
 
-# Plain
+## Plain
 
-# Introduction {#intro}
+## Introduction {##intro}
 
-# Welcome {.title}
+## Welcome {.title}
 
 # Heading level 1
 
@@ -196,16 +198,16 @@ This is text.
 
 This is text.
 
-##### Heading level 6
+###### Heading level 6
 
 This is text.
 
-# The looooooooooooooooooooooooooooooooooooooooooooooooooooooog headings
+## The looooooooooooooooooooooooooooooooooooooooooooooooooooooog headings
 
-# 超スーパーウルトラハイパーすごくとても長すぎて読み切れない日本語で書かれた見出し
+## 超スーパーウルトラハイパーすごくとても長すぎて読み切れない日本語で書かれた見出し
 
 背景画像の拡大縮小[^4]
 
 [^4]: [https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images)
 
-> # Not Sectionize
+> ## Not Sectionize
