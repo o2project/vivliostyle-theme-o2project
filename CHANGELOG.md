@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.9.0...v2.0.0) (2022-01-21)
+
+
+### Features
+
+* **styles/foundation:** implemented color palette ([4234185](https://github.com/o2project/vivliostyle-theme-o2project/commit/423418512c91cfa283e08d7d09a6c7add90f7412))
+* **styles:** add borders in page bottom-left and bottom-right ([db034a2](https://github.com/o2project/vivliostyle-theme-o2project/commit/db034a255f542ed152d0fde954018b4da045d98c))
+* **styles:** improve blockquote style ([5171b78](https://github.com/o2project/vivliostyle-theme-o2project/commit/5171b789ad646078c3960becbb535d67859bb03e))
+* **styles:** improve heading style ([362211b](https://github.com/o2project/vivliostyle-theme-o2project/commit/362211b0bd6a6b779e83244b4d1a11ee467d7ab4))
+* **styles:** organized the colors used in the theme ([231d606](https://github.com/o2project/vivliostyle-theme-o2project/commit/231d6068d7e5537e28fea13e2b75ea757b368c13))
+
+
+### BREAKING CHANGES
+
+* **styles:** Incompatibility of variable names in SCSS
+
 # [1.9.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.8.0...v1.9.0) (2022-01-19)
 
 
