@@ -33,8 +33,8 @@
   a[data-ref='fig'],
   a[data-ref='tbl'],
   a[data-ref='cite'] {
-    background-color: rgba(255, 0, 0, 0.3);
-    color: $color--red;
+    background-color: $color-sub;
+    color: $color-text;
   }
 
   a[data-ref='sec']::before {
