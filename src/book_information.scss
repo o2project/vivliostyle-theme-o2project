@@ -5,6 +5,13 @@ section {
   bottom: 0;
   left: 0;
 
+  h1 {
+    padding: 0;
+    margin: 12pt 0;
+    background-color: inherit;
+    color: inherit;
+  }
+
   p {
     margin: 1.5rem 0;
     text-indent: 0 !important;
