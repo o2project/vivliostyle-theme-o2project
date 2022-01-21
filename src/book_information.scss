@@ -35,3 +35,17 @@ section {
     }
   }
 }
+
+@page :left {
+  @bottom-left {
+    content: '';
+    border-left: none;
+  }
+}
+
+@page :right {
+  @bottom-right {
+    content: '';
+    border-right: none;
+  }
+}

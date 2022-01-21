@@ -54,6 +54,7 @@
     padding: 0 2mm 15mm 2mm;
     margin-top: 15mm;
     margin-bottom: -$page-bleed;
+    border-left: 4pt solid $color-accent;
     overflow: visible;
   }
 }
@@ -67,6 +68,7 @@
     padding: 0 2mm 15mm 2mm;
     margin-top: 15mm;
     margin-bottom: -$page-bleed;
+    border-right: 4pt solid $color-accent;
     overflow: visible;
   }
 }
