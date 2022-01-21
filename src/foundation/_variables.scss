@@ -1,40 +1,50 @@
-$color--white: #ffffff;
-$color--black: #34495e;
-$color--black-dark: #2c3e50;
-$color--gray: #95a5a6;
-$color--gray-dark: #7f8c8d;
-$color--gray-light: #f6f6f6;
-$color--silver: #ecf0f1;
-$color--silver-dark: #bdc3c7;
-$color--red: #e74c3c;
-$color--red-dark: #c0392b;
-$color--red-light: #ff8989;
-$color--purple: #9b59b6;
-$color--purple-dark: #8e44ad;
-$color--orange: #e67e22;
-$color--orange-dark: #d35400;
-$color--yellow: #f1c40f;
-$color--yellow-dark: #f39c12;
-$color--blue: #3498db;
-$color--blue-dark: #2980b9;
-$color--green: #2ecc71;
-$color--green-dark: #27ae60;
-$color--green2: #1abc9c;
-$color--green2-dark: #16a085;
+@import './_color_palette';
 
-$color--page-back: #fbfcfa;
-$color--page-text: #34495e;
+// ------------------------------
+// Color
+// ------------------------------
+
+$color-main: $color-blue-600;
+$color-sub: $color-beige-500;
+$color-accent: $color-yellow-200;
+
+$color-background: $color-white;
+$color-text: $color-monotone-800;
+
+$color-link: $color-blue-200;
+$color-link--select: $color-blue-700;
+
+$color-code-background: $color-monotone-200;
+
+$color-figcaption-background: $color-sub;
+$color-figcaption-text: $color-white;
+
+$color-headings-background: $color-main;
+$color-heading-text: $color-white;
+$color-headings-border: $color-main;
+
+$color-blockquote-background: $color-monotone-200;
+$color-blockquote-text: $color-black;
+
+// ------------------------------
+// Font
+// ------------------------------
 
 $font-family: 'Neue Frutiger World', 'Verdana', 'Yakumono', 'body', 'Hiragino Sans', sans-serif;
 
-$master-font-size-for-print: 75%;
+// ------------------------------
+// Page Size
+// ------------------------------
 
-// B5
+// JIS B5 size
 $page-width: 182mm;
 $page-height: 257mm;
 $page-bleed: 3mm;
 
-// Page
+// ------------------------------
+// Page Margin
+// ------------------------------
+
 $page-margin-top: 25mm;
 $page-margin-bottom: 39mm;
 $page-margin-outer: 18mm;

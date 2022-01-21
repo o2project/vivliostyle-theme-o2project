@@ -47,3 +47,25 @@ nav[role='doc-toc'] {
     text-align: right;
   }
 }
+
+@page {
+  counter-increment: toc-page;
+}
+
+@page :first {
+  counter-reset: toc-page 0;
+}
+
+@page :left {
+  @bottom-left {
+    content: counter(toc-page, lower-roman);
+    border-left: none;
+  }
+}
+
+@page :right {
+  @bottom-right {
+    content: counter(toc-page, lower-roman);
+    border-right: none;
+  }
+}

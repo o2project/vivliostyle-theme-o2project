@@ -14,17 +14,24 @@ section > {
   }
 
   h1 {
-    margin: 12pt auto;
+    padding: 12pt;
+    margin: 0 auto 12pt;
+    background-color: $color-headings-background;
+    color: $color-heading-text;
     font-size: 20pt;
   }
 
   h2 {
+    padding-bottom: 4pt;
     margin: 12pt auto;
+    border-bottom: 2px solid $color-headings-border;
     font-size: 18pt;
   }
 
   h3 {
+    padding: 4pt 0 4pt 4pt;
     margin: 10pt auto;
+    border-left: 2px solid $color-headings-border;
     font-size: 16pt;
   }
 
@@ -38,8 +45,4 @@ section > {
     margin: 8pt auto;
     font-size: 12pt;
   }
-}
-
-section.title {
-  color: $color--red;
 }

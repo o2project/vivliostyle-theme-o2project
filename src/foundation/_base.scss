@@ -29,16 +29,13 @@ h6 {
 
 a {
   text-decoration: none;
-  color: $color--blue;
+  color: $color-link;
 }
 
-a:visited {
-  color: $color--purple;
-}
-
-a:hover {
+a:hover,
+a:focus {
   text-decoration: underline;
-  color: $color--red;
+  color: $color-link--select;
 }
 
 p {
@@ -111,18 +108,6 @@ table {
   }
   tr:last-child {
     border-bottom: 1px solid;
-  }
-}
-
-blockquote {
-  margin: 1.5rem 0.5rem;
-  background-color: $color--silver;
-  padding: 0.5em 1em;
-  border-radius: 0.2rem;
-
-  :not(pre) > code {
-    padding: 0;
-    word-break: break-all;
   }
 }
 

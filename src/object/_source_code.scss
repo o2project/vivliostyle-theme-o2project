@@ -9,7 +9,7 @@ code {
 
 code {
   padding: 0 4pt;
-  background-color: $color--gray-light;
+  background-color: $color-code-background;
   // override to vivliostyle style definition
   white-space: pre-wrap !important;
   // override to vivliostyle style definition
@@ -24,7 +24,9 @@ figure[class^='language-'] {
   figcaption {
     width: 100%;
     margin: 0;
-    background-color: $color--gray;
+    background-color: $color-figcaption-background;
+    color: $color-figcaption-text;
+    font-weight: bold;
   }
 
   pre {

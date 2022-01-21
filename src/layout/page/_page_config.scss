@@ -7,6 +7,7 @@
   size: $page-width $page-height;
   margin-top: $page-margin-top;
   margin-bottom: $page-margin-bottom - 6mm;
+  background-color: $color-background;
 
   @top-left-corner {
     @include page-top-style();
@@ -34,7 +35,6 @@
     margin-top: -8mm;
     margin-bottom: -$page-bleed;
     margin-left: -$page-bleed;
-    background-color: $color--white;
   }
 
   @bottom-right-corner {
@@ -42,7 +42,6 @@
     margin-top: -8mm;
     margin-right: -$page-bleed;
     margin-bottom: -$page-bleed;
-    background-color: $color--white;
   }
 }
 
@@ -55,6 +54,7 @@
     padding: 0 2mm 15mm 2mm;
     margin-top: 15mm;
     margin-bottom: -$page-bleed;
+    border-left: 4pt solid $color-accent;
     overflow: visible;
   }
 }
@@ -68,6 +68,7 @@
     padding: 0 2mm 15mm 2mm;
     margin-top: 15mm;
     margin-bottom: -$page-bleed;
+    border-right: 4pt solid $color-accent;
     overflow: visible;
   }
 }
