@@ -1,20 +1,20 @@
+@import './_color_palette';
+
 // ------------------------------
 // Color
 // ------------------------------
 
-$color-main: #003760;
-$color-sub: #858475;
-$color-accent: #d4cd00;
-
-$color-white: #fff;
+$color-main: $color-blue-600;
+$color-sub: $color-beige-500;
+$color-accent: $color-yellow-200;
 
 $color-background: $color-white;
-$color-text: #2b2b2b;
+$color-text: $color-monotone-800;
 
-$color-link: #0076d1;
-$color-link--select: #002745;
+$color-link: $color-blue-200;
+$color-link--select: $color-blue-700;
 
-$color-code-background: #d6d6d6;
+$color-code-background: $color-monotone-200;
 
 $color-figcaption-background: $color-sub;
 $color-figcaption-text: $color-white;
