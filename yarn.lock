@@ -540,12 +540,12 @@
     "@types/node" "*"
 
 "@vivliostyle/cli@latest":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@vivliostyle/cli/-/cli-4.7.0.tgz#0d3b883c69a5b1d34b29abb7e6c19519b6895f4d"
-  integrity sha512-iEOqihdCRuJ+pFK793DkuTKvMfzK1cBP9WThJ6fPM3JIrzzy5NGE2ZqO2d+xKKjlepNZ6aRJ+eETViHbTa2dYQ==
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@vivliostyle/cli/-/cli-4.8.2.tgz#e3134876d9b0fcce54b5a262ffb807d1e1baca36"
+  integrity sha512-8HnDosPc+HlN84C1mnfytFG4SJq4hCSBuzA+FSijMvu1BFjw19iBcjs+ArLNnU1ke9DT4FIJqlQl06QfDSSmJw==
   dependencies:
     "@vivliostyle/vfm" "1.2.1"
-    "@vivliostyle/viewer" "2.14.1"
+    "@vivliostyle/viewer" "2.14.4"
     ajv "^7.0.4"
     ajv-formats "^1.5.1"
     chalk "^4.1.2"
@@ -569,7 +569,7 @@
     portfinder "^1.0.28"
     press-ready "^4.0.3"
     prettier "^2.3.2"
-    puppeteer-core "12.0.1"
+    puppeteer-core "13.3.1"
     resolve-pkg "^2.0.0"
     serve-handler "^6.1.3"
     shelljs "^0.8.4"
@@ -579,10 +579,10 @@
     uuid "^8.3.2"
     vfile "^4.2.1"
 
-"@vivliostyle/core@^2.14.1":
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/@vivliostyle/core/-/core-2.14.1.tgz#e0268b1f4a0a8e3445cbe216777252882b962e8e"
-  integrity sha512-a+GRYiSjCMQMrWz7OH+SRcXiyiQiNaJBfBJhplU6x7LWfkHqq+sN8N9NjfglwtGL+SE3WckYXV/NqL33lEaTgg==
+"@vivliostyle/core@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.yarnpkg.com/@vivliostyle/core/-/core-2.14.4.tgz#7266345f781c0f600b817ee28ea4fcad644190d2"
+  integrity sha512-h3L3yJNOJ4gGUGNI5stsfsKog170UYvevsf6hxlsTHfcQmilGNEZ4Ox0QX2ThRUYHB6TK8AYb3oB2cMAlRi+IA==
   dependencies:
     fast-diff "^1.2.0"
 
@@ -625,12 +625,12 @@
     unist-util-visit "^2.0.3"
     unist-util-visit-parents "^3.1.1"
 
-"@vivliostyle/viewer@2.14.1", "@vivliostyle/viewer@^2.1.1":
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/@vivliostyle/viewer/-/viewer-2.14.1.tgz#4e77030fadf411bf26f2cfd879155e3baf921600"
-  integrity sha512-0XCcpn1RcSKyaqDmuVOAdMRZ2oM1gfhLtVIZocrsnJwlreNaR4w250efwk87Q7Jk0WaL6LvLucr5O/dRsGQqtg==
+"@vivliostyle/viewer@2.14.4", "@vivliostyle/viewer@^2.1.1":
+  version "2.14.4"
+  resolved "https://registry.yarnpkg.com/@vivliostyle/viewer/-/viewer-2.14.4.tgz#125251080968095cfc61a91bd719706a6d1e4407"
+  integrity sha512-U2pTE3qAcn0gTNWYOkD5xbF9g9gAcDk9Ez492i3K2h+H5ai5ip8ZrGzl8UvqRheCqiRKreNquZahME2JxPKiFg==
   dependencies:
-    "@vivliostyle/core" "^2.14.1"
+    "@vivliostyle/core" "^2.14.4"
     font-awesome "^4.7.0"
     knockout "^3.5.0"
 
@@ -1423,6 +1423,13 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+cross-fetch@3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
+
 cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -1488,17 +1495,10 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
+debug@4, debug@4.3.3, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
-  dependencies:
-    ms "2.1.2"
-
-debug@4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
-  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
 
@@ -1590,10 +1590,10 @@ destroy@~1.0.4:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-devtools-protocol@0.0.937139:
-  version "0.0.937139"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.937139.tgz#bdee3751fdfdb81cb701fd3afa94b1065dafafcf"
-  integrity sha512-daj+rzR3QSxsPRy5vjjthn58axO8c11j58uY0lG5vvlJk/EiOdCWOptGdkXDjtuRHr78emKq0udHCXM4trhoDQ==
+devtools-protocol@0.0.960912:
+  version "0.0.960912"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.960912.tgz#411c1fa355eddb72f06c4a8743f2808766db6245"
+  integrity sha512-I3hWmV9rWHbdnUdmMKHF2NuYutIM2kXz2mdXW8ha7TbRlGTVs+PF+PsB5QWvpCek4Fy9B+msiispCfwlhG5Sqg==
 
 dezalgo@^1.0.0:
   version "1.0.3"
@@ -3656,10 +3656,10 @@ node-emoji@^1.10.0:
   dependencies:
     lodash "^4.17.21"
 
-node-fetch@2.6.5:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.5.tgz#42735537d7f080a7e5f78b6c549b7146be1742fd"
-  integrity sha512-mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -4425,23 +4425,23 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-12.0.1.tgz#b647ef14e0118537f0843b56a82a32d73ba528b0"
-  integrity sha512-lty/1LQkl9zkMuQGwipHEBU8VD1m+SEWXG7zpdwzKet8P6L3taBNOt6Y1LpptakVejKz8TqMSjaWcEjqEKPfjw==
+puppeteer-core@13.3.1:
+  version "13.3.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.3.1.tgz#2337320e0f19774a83460a732adf4a7198857c31"
+  integrity sha512-II9uo5MFh+otoJSoYp/kfY3jf1iWt0ySKyK8vFVfdbn3rl+k3SLh9nQRdINyoO1Kt6Tk4dPp6GZipD9jgU9wmw==
   dependencies:
-    debug "4.3.2"
-    devtools-protocol "0.0.937139"
+    cross-fetch "3.1.5"
+    debug "4.3.3"
+    devtools-protocol "0.0.960912"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.0"
-    node-fetch "2.6.5"
     pkg-dir "4.2.0"
     progress "2.0.3"
     proxy-from-env "1.1.0"
     rimraf "3.0.2"
     tar-fs "2.1.1"
     unbzip2-stream "1.4.3"
-    ws "8.2.3"
+    ws "8.5.0"
 
 q@^1.5.1:
   version "1.5.1"
@@ -5958,10 +5958,10 @@ write-file-atomic@^3.0.3:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@8.2.3:
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
-  integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
+ws@8.5.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
+  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.2"
