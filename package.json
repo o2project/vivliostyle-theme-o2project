@@ -25,7 +25,7 @@
     "prettier": "^2.5.1",
     "prettier-plugin-md-nocjsp": "^1.2.0",
     "sass": "^1.49.7",
-    "semantic-release": "^18.0.1",
+    "semantic-release": "^20.1.0",
     "vivliostyle-theme-scripts": "^0.3.1"
   },
   "files": [
