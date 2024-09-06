@@ -7,6 +7,10 @@
     "type": "git",
     "url": "https://github.com/o2project/vivliostyle-theme-o2project.git"
   },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "run-p build:scss build:vivliostyle",
     "build:scss": "sass src:lib",
@@ -34,10 +38,6 @@
     "vivliostyle",
     "vivliostyle-theme"
   ],
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "vivliostyle": {
     "theme": {
       "name": "Vivliostyle Theme Vivliostyle Theme O2 Project",
