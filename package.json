@@ -2,7 +2,7 @@
   "name": "@o2project/vivliostyle-theme-o2project",
   "description": "Vivliostyle theme for O2 Project",
   "version": "2.0.0",
-  "author": "kubosho <ta2@o2p.jp>",
+  "author": "O2 Project <dev@o2p.jp>",
   "repository": {
     "type": "git",
     "url": "https://github.com/o2project/vivliostyle-theme-o2project.git"
@@ -45,7 +45,7 @@
   "vivliostyle": {
     "theme": {
       "name": "Vivliostyle Theme Vivliostyle Theme O2 Project",
-      "author": "kubosho <ta2@o2p.jp>",
+      "author": "O2 Project <dev@o2p.jp>",
       "style": "./lib/print.css",
       "category": "misc",
       "topics": []
