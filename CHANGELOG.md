@@ -1,3 +1,13 @@
+## [2.0.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.0...v2.0.1) (2024-09-06)
+
+### 📚 Some changes
+
+* **deps:** add @kubosho/configs package ([4921d3a](https://github.com/o2project/vivliostyle-theme-o2project/commit/4921d3a80faa7953060c3d9677822a66be2ab19f))
+* **deps:** add package-lock.json ([f16ac6b](https://github.com/o2project/vivliostyle-theme-o2project/commit/f16ac6b410acad77a825a0d5f25d09f9ca9c56f2))
+* **deps:** recreate package-lock.json ([19bb381](https://github.com/o2project/vivliostyle-theme-o2project/commit/19bb3812c42449e3ce00272096cd92d118665feb))
+* **deps:** remove unnecessary deps ([1b05ec7](https://github.com/o2project/vivliostyle-theme-o2project/commit/1b05ec73ddc41b20d722255012d2bf76c1efe366))
+* **deps:** remove yarn.lock ([6d4e800](https://github.com/o2project/vivliostyle-theme-o2project/commit/6d4e8004051b26fe0978861103011a7d4e73a3a5))
+
 # [2.0.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v1.9.0...v2.0.0) (2022-01-21)
 
 
