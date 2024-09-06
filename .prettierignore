@@ -1,4 +1,5 @@
 book/
+
 theme_*.css
 publication.json
-yarn.lock
+package-lock.json
