@@ -5839,10 +5839,10 @@ vfile@^4.0.0, vfile@^4.2.1:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vivliostyle-theme-scripts@^0.3.1:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/vivliostyle-theme-scripts/-/vivliostyle-theme-scripts-0.3.4.tgz#533180c22892f00cb009f49a88cb991db70e1839"
-  integrity sha512-KjjrD1jUE/p1ySPi3xqz8zU3agfrqshbMjYxwW06vq35EBKXPViqO38VFy9VHze2FSoGWMidCmMjZfZggDXCng==
+vivliostyle-theme-scripts@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/vivliostyle-theme-scripts/-/vivliostyle-theme-scripts-0.3.6.tgz#be3f411bf6a0e452aa83a9826435fcc1977a4d64"
+  integrity sha512-LCDW/3O9MB/ezPMdCmcwJ5Hbt5QNiYRryd75xxBrOV7sfVOUilDSLRzXxNIxMgUDB/18hhqcHtTFCGWC9ez36Q==
   dependencies:
     "@vivliostyle/vfm" "^1.0.0-alpha.10"
     "@vivliostyle/viewer" "^2.1.1"
