@@ -1,3 +1,9 @@
+## [2.0.3](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.2...v2.0.3) (2024-09-08)
+
+### 📚 Some changes
+
+* **deps:** specify @vivliostyle/cli version ([058330c](https://github.com/o2project/vivliostyle-theme-o2project/commit/058330cedd845d83595344c8af77ede3bdd99c4b))
+
 ## [2.0.2](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.1...v2.0.2) (2024-09-08)
 
 ### 📚 Some changes
