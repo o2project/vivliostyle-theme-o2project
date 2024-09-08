@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.1...v2.0.2) (2024-09-08)
+
+### 📚 Some changes
+
+* **foundation/base:** change properties order ([643b60b](https://github.com/o2project/vivliostyle-theme-o2project/commit/643b60bfa4397b8ac551711558a70ca296aa93e3))
+
 ## [2.0.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.0...v2.0.1) (2024-09-06)
 
 ### 📚 Some changes
