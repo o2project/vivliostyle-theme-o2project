@@ -1,3 +1,9 @@
+## [2.0.4](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.3...v2.0.4) (2024-09-08)
+
+### 📚 Some changes
+
+* **deps:** update @kubosho/configs ([5a37db7](https://github.com/o2project/vivliostyle-theme-o2project/commit/5a37db7a783001f7fd33bada936af82ea11cc1c8))
+
 ## [2.0.3](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.2...v2.0.3) (2024-09-08)
 
 ### 📚 Some changes
