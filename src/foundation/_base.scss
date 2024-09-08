@@ -89,11 +89,12 @@ table {
   th,
   td {
     padding: 0.25rem 1rem 0.25rem 0;
+    border: 0;
+    background-color: transparent;
+
     &:first-child {
       padding-left: 1rem;
     }
-    background-color: transparent;
-    border: 0;
   }
 
   th {
