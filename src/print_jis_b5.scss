@@ -3,4 +3,11 @@
  * load this style in PDF publicatoins (format: pdf)
  */
 
+@import './foundation/_variables';
+
+// JIS B5 size
+$page-width: 182mm;
+$page-height: 257mm;
+$page-bleed: 3mm;
+
 @import './_index';

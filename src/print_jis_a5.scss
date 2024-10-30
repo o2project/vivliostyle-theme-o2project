@@ -1,0 +1,13 @@
+/*
+ * For PDF publications or Vivliostyle Viewer:
+ * load this style in PDF publicatoins (format: pdf)
+ */
+
+@import './foundation/_variables';
+
+// JIS A5 size
+$page-width: 148mm;
+$page-height: 210mm;
+$page-bleed: 3mm;
+
+@import './_index';

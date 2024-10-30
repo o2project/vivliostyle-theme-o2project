@@ -1,6 +1,6 @@
 module.exports = {
   language: 'ja',
-  theme: 'lib/print.css',
+  theme: 'lib/print_jis_b5.css',
   size: 'JIS-B5',
   toc: true,
   tocTitle: '目次',
