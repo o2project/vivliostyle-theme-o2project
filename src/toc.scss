@@ -1,16 +1,5 @@
 @import './foundation/_variables';
-@import './_index';
-
-@page :left {
-  @bottom-left {
-    content: '';
-  }
-}
-@page :right {
-  @bottom-right {
-    content: '';
-  }
-}
+@import './foundation/_base';
 
 h1 {
   display: none;
@@ -46,27 +35,5 @@ nav[role='doc-toc'] {
     align-self: flex-end;
     order: 2;
     text-align: right;
-  }
-}
-
-@page {
-  counter-increment: toc-page;
-}
-
-@page :first {
-  counter-reset: toc-page 0;
-}
-
-@page :left {
-  @bottom-left {
-    content: counter(toc-page, lower-roman);
-    border-left: none;
-  }
-}
-
-@page :right {
-  @bottom-right {
-    content: counter(toc-page, lower-roman);
-    border-right: none;
   }
 }

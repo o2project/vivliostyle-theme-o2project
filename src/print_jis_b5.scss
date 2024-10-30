@@ -10,4 +10,6 @@ $page-width: 182mm;
 $page-height: 257mm;
 $page-bleed: 3mm;
 
-@import './_index';
+@import './foundation/_base';
+@import './layout/_index';
+@import './object/index';

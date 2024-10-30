@@ -4,7 +4,9 @@
  */
 
 @import './foundation/_variables';
-@import './_index';
+@import './foundation/_base';
+@import './layout/_index';
+@import './object/index';
 
 @page :left {
   margin-right: $page-margin-outer;

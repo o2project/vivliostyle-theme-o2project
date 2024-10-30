@@ -4,7 +4,10 @@
  */
 
 @import './foundation/_variables';
-@import './_index';
+@import './foundation/_base';
+@import './layout/_index';
+@import './layout/media/_screen_media';
+@import './object/index';
 
 /* for wide screen */
 body {
