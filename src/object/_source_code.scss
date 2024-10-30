@@ -22,11 +22,17 @@ pre code {
 
 figure[class^='language-'] {
   figcaption {
+    counter-increment: none;
     width: 100%;
     margin: 0;
     background-color: $color-figcaption-background;
     color: $color-figcaption-text;
     font-weight: bold;
+
+    &::before {
+      // ソースコードに図の番号を付けないようにする
+      content: '' !important;
+    }
   }
 
   pre {
