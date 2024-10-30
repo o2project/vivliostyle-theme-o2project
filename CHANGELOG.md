@@ -1,3 +1,17 @@
+## [2.2.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.1.0...v2.2.0) (2024-10-30)
+
+### ✨ Features
+
+* **media/print_media:** add font-family settings ([8d2bb54](https://github.com/o2project/vivliostyle-theme-o2project/commit/8d2bb542de08892613b75bc167ae2c589a9c2568))
+* **layout/sectionnization:** modify font size and margin size ([9c263a3](https://github.com/o2project/vivliostyle-theme-o2project/commit/9c263a31f951cd956efd767627520ec67c2761fc))
+* **layout/page/page_config:** modify page bottom border style ([c3bdd0d](https://github.com/o2project/vivliostyle-theme-o2project/commit/c3bdd0d838e6fbc444958a460a088d8f6d7189a5))
+* **src:** move font settings to foundation/base ([29e0a8c](https://github.com/o2project/vivliostyle-theme-o2project/commit/29e0a8cee1942eb3ff358750e65fc0153aaeac97))
+* **layout/page/page_count:** start page numbering from 0 ([6188555](https://github.com/o2project/vivliostyle-theme-o2project/commit/61885555b448d64c103fa520661927a373262bbc))
+
+### 🐛 Bug Fixes
+
+* **object/source_code:** remove figure numbering from source code ([880b7d4](https://github.com/o2project/vivliostyle-theme-o2project/commit/880b7d4dd8d57ad380805bfc95be8631686991d5))
+
 ## [2.1.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.4...v2.1.0) (2024-10-30)
 
 ### ✨ Features
