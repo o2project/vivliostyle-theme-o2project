@@ -29,6 +29,7 @@
   },
   "files": [
     "example",
+    "fonts",
     "src",
     "lib",
     "vivliostyle.config.js"
