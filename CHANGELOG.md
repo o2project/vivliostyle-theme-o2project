@@ -1,3 +1,14 @@
+## [2.4.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.3.0...v2.4.0) (2024-10-30)
+
+### ⚠ BREAKING CHANGES
+
+* **src:** split style definitions for JIS-A5 and JIS-B5
+
+### ✨ Features
+
+* **src:** add book title style ([8ae2515](https://github.com/o2project/vivliostyle-theme-o2project/commit/8ae251599f99ebbeb5e12577ace0816fb82074ed))
+* **src:** split style definitions for JIS-A5 and JIS-B5 ([f999bad](https://github.com/o2project/vivliostyle-theme-o2project/commit/f999bad5f48b7c9bed5f062d108993c698dd02ee))
+
 ## [2.3.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.2.1...v2.3.0) (2024-10-30)
 
 ### ✨ Features
