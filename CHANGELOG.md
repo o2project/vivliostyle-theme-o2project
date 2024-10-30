@@ -1,3 +1,16 @@
+## [2.1.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.4...v2.1.0) (2024-10-30)
+
+### ✨ Features
+
+* **foundation/base:** add font-face definition ([a6506fe](https://github.com/o2project/vivliostyle-theme-o2project/commit/a6506feaf2a76454fb07f1167c97d5983830806b))
+* **layout/sectionization:** remove unnecessary border in h3 ([cf92821](https://github.com/o2project/vivliostyle-theme-o2project/commit/cf92821f81e46edb5b6051ac58e17edd285ea8b3))
+* **media/print_media:** update font-settings ([3c6cb00](https://github.com/o2project/vivliostyle-theme-o2project/commit/3c6cb002e92ae2c3aeec2b53632590e8289a5c82))
+* **layout/sectionization:** update headings style ([f2bfba9](https://github.com/o2project/vivliostyle-theme-o2project/commit/f2bfba9a01a2551b93ae4c4ec5a8facb8afc7e2d))
+
+### 🐛 Bug Fixes
+
+* **foundation/base:** remove margin from nested lists ([8817279](https://github.com/o2project/vivliostyle-theme-o2project/commit/8817279d8b47aea724591492d104adf95affb2d8))
+
 ## [2.0.4](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.0.3...v2.0.4) (2024-09-08)
 
 ### 📚 Some changes
