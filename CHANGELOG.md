@@ -1,3 +1,9 @@
+## [2.6.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.5.0...v2.6.0) (2024-10-30)
+
+### ✨ Features
+
+* **fonts:** use Sauce Han Sans ([174b9bd](https://github.com/o2project/vivliostyle-theme-o2project/commit/174b9bd4f5022baf88078e11bcc503694a3dda99))
+
 ## [2.5.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.4.0...v2.5.0) (2024-10-30)
 
 ### ✨ Features
