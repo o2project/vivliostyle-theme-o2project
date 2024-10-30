@@ -116,12 +116,19 @@
   h5,
   h6 {
     break-after: avoid;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: bold;
   }
 
   tr,
   th,
   td {
     break-inside: avoid;
+  }
+
+  pre,
+  code {
+    font-family: '源ノ角ゴシック Code JP', monospace;
   }
 
   .footnote {
