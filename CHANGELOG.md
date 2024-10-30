@@ -1,3 +1,14 @@
+## [2.5.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.4.0...v2.5.0) (2024-10-30)
+
+### ✨ Features
+
+* **src:** add introduction CSS ([1c20362](https://github.com/o2project/vivliostyle-theme-o2project/commit/1c20362de2031da2513129cc77d589f2b0096e9d))
+
+### 📚 Some changes
+
+* **example:** add book title file ([9959f3a](https://github.com/o2project/vivliostyle-theme-o2project/commit/9959f3a86589a04640dbe5dbb5531d10a4167e8f))
+* **src:** change directory structure ([7b1a38d](https://github.com/o2project/vivliostyle-theme-o2project/commit/7b1a38d9c55ee55f34dbac0be8953deba5b521d1))
+
 ## [2.4.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.3.0...v2.4.0) (2024-10-30)
 
 ### ⚠ BREAKING CHANGES
