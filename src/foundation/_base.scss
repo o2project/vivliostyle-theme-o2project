@@ -116,6 +116,14 @@ img {
   max-width: 100%;
 }
 
+ol,
+ul {
+  ol,
+  ul {
+    margin: 0;
+  }
+}
+
 .page-break {
   page-break-after: always !important;
 }
