@@ -14,33 +14,37 @@ section > {
   }
 
   h1 {
-    padding: 8pt;
-    margin: 0 auto 12pt;
+    padding: 2pt 4pt;
+    margin: 0 auto 8pt;
     background-color: $color-headings-background;
     color: $color-heading-text;
     font-size: 20pt;
   }
 
-  h2 {
-    padding-bottom: 4pt;
-    margin: 12pt auto;
-    border-bottom: 2px solid $color-headings-border;
-    font-size: 18pt;
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8pt auto;
   }
 
-  h3 {
-    margin: 10pt auto;
+  h2 {
+    padding-bottom: 2pt;
+    border-bottom: 2px solid $color-headings-border;
     font-size: 16pt;
   }
 
+  h3 {
+    font-size: 12pt;
+  }
+
   h4 {
-    margin: 8pt auto;
-    font-size: 14pt;
+    font-size: 10pt;
   }
 
   h5,
   h6 {
-    margin: 8pt auto;
-    font-size: 12pt;
+    font-size: 8pt;
   }
 }
