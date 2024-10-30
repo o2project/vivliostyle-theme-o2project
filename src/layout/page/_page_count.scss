@@ -3,7 +3,7 @@
 }
 
 @page :first {
-  counter-reset: p -1;
+  counter-reset: p 0;
 }
 
 @page :left {
