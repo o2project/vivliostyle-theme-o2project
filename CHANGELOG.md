@@ -1,3 +1,9 @@
+## [2.3.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.2.1...v2.3.0) (2024-10-30)
+
+### ✨ Features
+
+* **media/print_media:** use Noto Sans Japanese in body ([9e5a26f](https://github.com/o2project/vivliostyle-theme-o2project/commit/9e5a26f196b3f615bc2207cca8117926c8c6ecef))
+
 ## [2.2.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.2.0...v2.2.1) (2024-10-30)
 
 ### 🐛 Bug Fixes
