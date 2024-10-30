@@ -67,6 +67,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+*:Zone.Identifier
+
 # ------------------------------------
 # Node.js
 # ------------------------------------
