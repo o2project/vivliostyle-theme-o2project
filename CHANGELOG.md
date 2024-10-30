@@ -1,3 +1,9 @@
+## [2.2.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.2.0...v2.2.1) (2024-10-30)
+
+### 🐛 Bug Fixes
+
+* move fonts directory to root ([a722f6c](https://github.com/o2project/vivliostyle-theme-o2project/commit/a722f6cf45f26e3dc569882d3d7c5bd93330069a))
+
 ## [2.2.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.1.0...v2.2.0) (2024-10-30)
 
 ### ✨ Features
