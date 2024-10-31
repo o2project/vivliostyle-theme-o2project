@@ -1,6 +1,6 @@
 // Syntax highlighting
 // https://prismjs.com
-@import 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css';
 
 pre,
 code {
@@ -9,7 +9,6 @@ code {
 
 code {
   padding: 0 4pt;
-  background-color: $color-code-background;
   // override to vivliostyle style definition
   white-space: pre-wrap !important;
   // override to vivliostyle style definition
