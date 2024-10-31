@@ -1,5 +1,15 @@
+<section class="cover" role="doc-cover">
+
+<header>
+
 # Vivliostyle Theme O2 Project
 
-## kubosho 著
+## 夜空に輝く{不等辺四角形|トラペジウム}のようなクラスレスCSS達
 
-### O2 Project 発行
+</header>
+
+kubosho [著]
+
+<small>O2 Project</small>
+
+</section>

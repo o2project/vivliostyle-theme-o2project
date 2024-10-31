@@ -2,23 +2,40 @@
 @import './foundation/_base';
 
 body {
-  text-align: center;
+  box-sizing: border-box;
+  min-height: 100%;
 }
 
-section > {
-  h1 {
+[role='doc-cover'] {
+  header {
+    padding: 24pt 0;
+    border-color: $color-book-title-border;
+    border-style: solid;
+    border-width: 1pt 0;
     margin-top: 50%;
   }
 
-  h2 {
-    border: none;
-    font-weight: normal;
+  h1 {
+    margin: 0;
+    text-align: center;
   }
 
-  h3 {
-    padding-top: 12pt;
-    border-top: 2px solid $color-headings-border;
-    border-left: none;
+  h2 {
+    margin: 0;
     font-weight: normal;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 12pt;
+    text-align: center;
+  }
+
+  small {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10pt;
   }
 }
