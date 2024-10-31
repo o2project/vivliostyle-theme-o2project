@@ -1,6 +1,28 @@
 @import './foundation/_variables';
 @import './foundation/_base';
 
+@page {
+  counter-increment: introduction-page;
+}
+
+@page :first {
+  counter-reset: introduction-page 0;
+}
+
+@page :left {
+  @bottom-left {
+    content: counter(introduction-page, lower-roman);
+    border-left: none;
+  }
+}
+
+@page :right {
+  @bottom-right {
+    content: counter(introduction-page, lower-roman);
+    border-right: none;
+  }
+}
+
 h1 {
   display: none;
 }
