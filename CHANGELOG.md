@@ -1,3 +1,19 @@
+## [2.7.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.6.0...v2.7.0) (2024-10-31)
+
+### ✨ Features
+
+* **book_information:** doc-colophon roleに対してスタイルを定義するようにした ([73b6674](https://github.com/o2project/vivliostyle-theme-o2project/commit/73b6674b9a787158cdf6260ed02407a9c7a6b116))
+* **object/source_code:** syntax highlightにPrism okaidiaを使うようにした ([c6b55df](https://github.com/o2project/vivliostyle-theme-o2project/commit/c6b55df7889cc8fde0b85013e1124b88e8c07f9a))
+* **src:** ソースコード表示にBizin Gothicを使うようにした ([f36bd8b](https://github.com/o2project/vivliostyle-theme-o2project/commit/f36bd8bfc98c28d4cd58f562fe0ed4f72715dfc2))
+* **object/source_code:** 不要なborder-radiusを削除した ([3ffd972](https://github.com/o2project/vivliostyle-theme-o2project/commit/3ffd9727ddebb4b7bd09daf84931b05d7b1e7c98))
+* **foundation/_base:** 文字サイズの太さを1段階上げた ([8e1888e](https://github.com/o2project/vivliostyle-theme-o2project/commit/8e1888e4bf3d0583d82c9d335c07dbc8ddb02d21))
+* 本の表紙の見た目を調整した ([3afba85](https://github.com/o2project/vivliostyle-theme-o2project/commit/3afba85d83495ba4899c9ea48e6d518cd9f3f9c5))
+* **toc:** 目次にローマ字のノンブルを追加した ([303b227](https://github.com/o2project/vivliostyle-theme-o2project/commit/303b227c2c2db15214b3249d98741ddc03283230))
+
+### 🐛 Bug Fixes
+
+* **src/print_jis_*:** 印刷用のCSSを読み込んでいなかったのを修正した ([be3652a](https://github.com/o2project/vivliostyle-theme-o2project/commit/be3652aa9c31cac707340655075ab8d8a9a230b7))
+
 ## [2.6.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.5.0...v2.6.0) (2024-10-30)
 
 ### ✨ Features
