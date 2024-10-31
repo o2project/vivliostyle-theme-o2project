@@ -1,3 +1,14 @@
+## [2.8.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.7.0...v2.8.0) (2024-10-31)
+
+### ✨ Features
+
+* **media/print_media:** 印刷用に定義していたfont-sizeを削除した ([45947df](https://github.com/o2project/vivliostyle-theme-o2project/commit/45947dfa1898f3c572b68933f8674ef6279892bf))
+
+### 🐛 Bug Fixes
+
+* **object/source_code:** インラインソースコードに対しての背景色指定を復活させた ([c9edc31](https://github.com/o2project/vivliostyle-theme-o2project/commit/c9edc31b689e0c321d99757e7ecd453eca6d6ac4))
+* **foundation/variables:** インラインソースコード用の変数定義を復活させた ([e1fdf66](https://github.com/o2project/vivliostyle-theme-o2project/commit/e1fdf66a9372fa043f79bff68c111ec028db0988))
+
 ## [2.7.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.6.0...v2.7.0) (2024-10-31)
 
 ### ✨ Features
