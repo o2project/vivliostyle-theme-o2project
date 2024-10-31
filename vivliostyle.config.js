@@ -2,8 +2,9 @@ module.exports = {
   language: 'ja',
   theme: 'lib/print_jis_b5.css',
   size: 'JIS-B5',
-  toc: true,
-  tocTitle: '目次',
+  toc: {
+    title: '目次',
+  },
   entry: [
     {
       path: './example/book_title.md',
