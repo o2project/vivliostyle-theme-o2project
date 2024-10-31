@@ -10,6 +10,7 @@ code {
 
 code {
   padding: 0 4pt;
+  background-color: $color-code-background;
   // override to vivliostyle style definition
   white-space: pre-wrap !important;
   // override to vivliostyle style definition
@@ -18,6 +19,7 @@ code {
 
 pre code {
   padding: 0;
+  background-color: transparent;
 }
 
 figure[class^='language-'] {
