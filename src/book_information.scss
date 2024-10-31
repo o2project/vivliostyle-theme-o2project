@@ -1,7 +1,21 @@
 @import './foundation/_variables';
 @import './foundation/_base';
 
-section {
+@page :left {
+  @bottom-left {
+    content: '';
+    border-left: none;
+  }
+}
+
+@page :right {
+  @bottom-right {
+    content: '';
+    border-right: none;
+  }
+}
+
+[role='doc-colophon'] {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -34,19 +48,5 @@ section {
     dt {
       width: 5em;
     }
-  }
-}
-
-@page :left {
-  @bottom-left {
-    content: '';
-    border-left: none;
-  }
-}
-
-@page :right {
-  @bottom-right {
-    content: '';
-    border-right: none;
   }
 }

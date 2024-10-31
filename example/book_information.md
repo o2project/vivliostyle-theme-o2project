@@ -1,3 +1,5 @@
+<section role="doc-colophon">
+
 # タイトル
 
 YYYY年MM月DD日 v1.0.0
@@ -22,3 +24,5 @@ YYYY年MM月DD日 v1.0.0
 </dl>
 
 © 2022 田中太郎
+
+</section>
