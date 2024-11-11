@@ -21,7 +21,7 @@
     "watch:scss": "sass --watch src:lib"
   },
   "devDependencies": {
-    "@kubosho/configs": "^3.16.5",
+    "@kubosho/configs": "^4.0.0",
     "@vivliostyle/cli": "^8.16.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.80.6",
