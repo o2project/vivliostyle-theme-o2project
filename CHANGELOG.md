@@ -1,3 +1,9 @@
+## [2.8.1](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.8.0...v2.8.1) (2024-11-11)
+
+### 🐛 Bug Fixes
+
+* update @kubosho/configs to the new format ([6cb9de1](https://github.com/o2project/vivliostyle-theme-o2project/commit/6cb9de11db4c4cd610d1831f1d2a9d87a7db8268))
+
 ## [2.8.0](https://github.com/o2project/vivliostyle-theme-o2project/compare/v2.7.0...v2.8.0) (2024-10-31)
 
 ### ✨ Features
